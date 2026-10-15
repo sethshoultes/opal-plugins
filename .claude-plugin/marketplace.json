@@ -1,0 +1,15 @@
+{
+  "name": "opal-plugins",
+  "description": "Opal's plugin for Claude: talk to Opal, the agent that looks after your membership website.",
+  "owner": {
+    "name": "Caseproof",
+    "url": "https://opalagent.app"
+  },
+  "plugins": [
+    {
+      "name": "opal-agent",
+      "source": "./opal",
+      "description": "Opal looks after your membership website. Ask Claude what is waiting on you and approve her plans and changes from the chat."
+    }
+  ]
+}
