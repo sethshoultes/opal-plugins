@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "opal": {
+      "type": "http",
+      "url": "https://opalagent.app/mcp"
+    }
+  }
+}

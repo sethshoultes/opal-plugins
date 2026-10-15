@@ -1,0 +1,13 @@
+{
+  "name": "opal-agent",
+  "displayName": "Opal",
+  "version": "0.1.0",
+  "description": "Opal looks after your membership website. Ask Claude what is waiting on you, how your sites are doing, and what Opal has done lately, and approve or decline her plans and changes from the chat.",
+  "author": {
+    "name": "Caseproof",
+    "url": "https://opalagent.app"
+  },
+  "homepage": "https://opalagent.app",
+  "repository": "https://github.com/sethshoultes/opal-plugins",
+  "keywords": ["opal", "membership", "website", "memberpress", "creatorpress"]
+}
