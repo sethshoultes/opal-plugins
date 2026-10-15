@@ -23,13 +23,13 @@ Share the preview link before asking someone to approve a proposal, a round or a
 - `list_ideas`: the person's ideas, with status, steps, cost so far, and any "still worth it?" question Opal is waiting on.
 - `update_idea` (ask first): pause, resume or drop an idea. Dropping stops it for good, so say so.
 - `answer_still_worth` (ask first): keep an idea going, or stop it.
-- `set_checkin`: how often Opal checks in on a site's ideas: never, with each plan, or weekly. Confirm the choice back to the person.
+- `set_checkin` (ask first): how often Opal checks in on a site's ideas: never, with each plan, or weekly.
 
 ## Content plan
 
 - `get_content_plan`: one site's topics for a month, in order, and the rejected ones.
 - `edit_content_topic` (ask first): pin, unpin, reject or move one topic.
-- `refresh_content_plan`: rebuild the month from fresh numbers. Pinned and rejected topics are kept. Tell the person before you do it.
+- `refresh_content_plan` (ask first): rebuild the month from fresh numbers. Pinned and rejected topics are kept.
 
 ## Brand kit
 
