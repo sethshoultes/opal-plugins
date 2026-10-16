@@ -4,7 +4,7 @@ ChatGPT apps aren't installed from a repository. An app is submitted in the Open
 
 ## The app
 
-Opal looks after small business websites. The ChatGPT app connects to Opal's own server:
+Opal looks after membership websites. The ChatGPT app connects to Opal's own server:
 
 - **MCP URL:** https://opalagent.app/mcp
 - **Sign in:** OAuth. The first time ChatGPT uses Opal, you sign in to Opal in your browser and choose what ChatGPT may do: look, talk with Opal, or act for you. You can disconnect at any time in the Opal app: Memory, then Connected assistants, then Revoke.
@@ -25,7 +25,7 @@ I look after your website and tell you what is waiting on you.
 
 ## Long description
 
-I am Opal, and I look after small business websites. I watch your sites, run checks on them every day and suggest fixes when something is wrong. When a change needs your OK, I wait for you. Here you can ask me how your sites are doing, what I have done lately and what is waiting on you. If you allow it, you can also chat with me as you would in the Opal app, and say yes or no to the plans and changes I bring you. Nothing I do from here can pay for anything or change your subscription, and you can disconnect me at any time in the Opal app.
+I am Opal, and I look after membership websites. I watch your sites, run checks on them every day and suggest fixes when something is wrong. When a change needs your OK, I wait for you. Here you can ask me how your sites are doing, what I have done lately and what is waiting on you. If you allow it, you can also chat with me as you would in the Opal app, and say yes or no to the plans and changes I bring you. Nothing I do from here can pay for anything or change your subscription, and you can disconnect me at any time in the Opal app.
 
 ## Starter prompts
 
