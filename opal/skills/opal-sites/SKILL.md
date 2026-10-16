@@ -1,11 +1,11 @@
 ---
 name: opal-sites
-description: Use when the person asks how their websites are doing in Opal, about uptime, speed, SSL, broken links or SEO checks, what Opal has done on a site lately, a site review, how far along their first site's setup is, or which Google searches a site is close to ranking for.
+description: Use when the person asks how their websites are doing in Opal, about uptime, speed, SSL, broken links or SEO checks, what Opal has done on a site lately, a site review, how far along their first site's setup is, or which Google searches a site is close to ranking for. Also use for the site logins they stored in Opal, revoking one, or choosing or disconnecting the Google account a site reads.
 ---
 
 # The person's sites and how they are doing
 
-Every tool here only reads. None of them changes the site, so you can call them without asking.
+Most tools here only read and change nothing, so you can call them without asking. The ones marked (ask first) change something: say what you will do, and act only on a clear yes for that exact thing.
 
 ## How a site is doing
 
@@ -18,6 +18,21 @@ Every tool here only reads. None of them changes the site, so you can call them 
 
 - `google_status`: whether Google Search Console and Analytics are connected for each site, and which properties. Opal only reads Google; she never changes anything there.
 - `get_striking_queries`: searches where a site is close to page one, the striking-distance list. It needs Google connected for that site. If it isn't, say so and point the person to connecting Google in the Opal app.
+- `google_pick_property` (ask first): when more than one Google property matches a site. Called with no property, it lists the ones that match; ask which, then call it again with that one to save it.
+- `google_disconnect` (ask first): stop Opal reading Google for one site. She asks Google to remove her access and deletes her key for it.
+
+Connecting Google happens in the Opal app, which shows Google's own consent screen.
+
+## Stored logins
+
+- `list_logins`: the site logins the person stored in Opal's locked store: site, label and when it was stored. It never shows the login itself.
+- `revoke_login` (ask first): delete one stored login from the store. Opal can no longer use it, and the person would have to give it again.
+
+Giving Opal a login happens only in the Opal app's secure form, never in chat.
+
+## Passing the person's ask
+
+The ask-first tools above that change Google (`google_pick_property`, `google_disconnect`) also take the person's ask, which Opal writes down: `request` is what they asked, in their own words exactly as they said it to you; `restatement` is what you understood; `done_means` is how you will both know it is done.
 
 ## How to answer
 

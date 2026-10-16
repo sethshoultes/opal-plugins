@@ -40,7 +40,13 @@ Share the preview link before asking someone to approve a proposal, a round or a
 
 ## Forms
 
-`list_forms` lists the person's forms: kind, title, site, whether each is live, how entries are delivered, and how many there are. It never shows the entries themselves. To change a form, the person asks Opal (see the opal-whats-waiting skill on talking to Opal).
+- `list_forms`: the person's forms: kind, title, site, whether each is live, how entries are delivered, and how many there are. It never shows the entries themselves.
+- `form_create` (ask first): make a contact, quote or signup form. It is saved, but it is on no site and takes no entries yet.
+- `form_edit` (ask first): change a form. A form not on a site changes at once. On a live form, a change to its title or fields opens a change on the site that waits for the person's approval (see `whats_waiting`).
+
+Both take the person's ask, which Opal writes down: `request` is what they asked, in their own words exactly as they said it to you; `restatement` is what you understood; `done_means` is how you will both know it is done.
+
+Some form changes happen only in the Opal app: putting a form on a site, where a live form's entries go, its thank-you, and the address of a CRM entries are sent to. Reading entries happens there too. If the person asks for one of these, say so and point them to the app.
 
 ## What Opal remembers
 
