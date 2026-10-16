@@ -16,7 +16,7 @@ Most tools here only read and change nothing, so you can call them without askin
 
 ## Search
 
-- `google_status`: whether Google Search Console and Analytics are connected for each site, and which properties. Opal only reads Google; she never changes anything there.
+- `google_status`: whether Google Search Console and Analytics are connected for each site, and which properties. Opal only reads Google's data.
 - `get_striking_queries`: searches where a site is close to page one, the striking-distance list. It needs Google connected for that site. If it isn't, say so and point the person to connecting Google in the Opal app.
 - `google_pick_property` (ask first): when more than one Google property matches a site. Called with no property, it lists the ones that match; ask which, then call it again with that one to save it.
 - `google_disconnect` (ask first): stop Opal reading Google for one site. She asks Google to remove her access and deletes her key for it.
@@ -25,7 +25,7 @@ Connecting Google happens in the Opal app, which shows Google's own consent scre
 
 ## Stored logins
 
-- `list_logins`: the site logins the person stored in Opal's locked store: site, label and when it was stored. It never shows the login itself.
+- `list_logins`: the site logins the person stored in Opal's locked store: site, label, when it was stored, and its login_id for `revoke_login`. It never shows the login itself.
 - `revoke_login` (ask first): delete one stored login from the store. Opal can no longer use it, and the person would have to give it again.
 
 Giving Opal a login happens only in the Opal app's secure form, never in chat.
